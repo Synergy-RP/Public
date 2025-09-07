@@ -1,6 +1,65 @@
 # Synergy Roleplay Changelog
 This is the official changelog of the Synergy Roleplay FiveM server where all additions, changes and removals from the server's core features are listed. This changelog dates from 06/09/2025 onwards. This changelog is updated each time an update is released so be sure to check this after each update to see what's changed.
 
+
+## [1.01.0] - `Ranks, Jobs, MDT, Optimisations & More`
+> 7th of September, 2025
+
+__This update continues our commitment to balance, performance and immersive roleplay. We’ve introduced new jobs, systems and optimisations while refining existing features to make the overall experience smoother and more engaging.__
+
+### Added
+- Added Deputy Assistant Chief Rank.
+- Added Taxi Job.
+- Added more minigames.
+- Added racing tablet image.
+- Added Police items.
+- Added missing images for Benelli and MP7.
+- Added XT Prison.
+- Added medical items + images.
+- Added Police vehicles to `vehicles.lua`.
+- Added Police BF400.
+- Added all 11,000+ clothing images, fully named and organised.
+
+### Changed / Fixed
+- Fixed Multijob / Bossmenu.
+- Updated storage units and properties resource.
+- Fixed correct pathing for file caching.
+- Removed unused manifest data.
+- Removed warehouse robberies until `sd-lib` is dropped.
+- Updated phone to use correct banking exports.
+- Replaced weapon names with lore friendly counterparts.
+- Changed Bossmenu location for the LSPD.
+- Fixed PD armory missing slots.
+- Fixed player robbing.
+- Disabled `/tablet` for racing.
+- Balanced medical revival prices.
+- Tweaked Dispatch blips.
+- Fixed error with bridge for TAM Police.
+- Added Dispatch integration with TAM Police.
+- Removed unused location in medical script.
+- Removed unnecessary chat suggestions for optimisation.
+- Merged stream resources for faster loading.
+- Rewrote MDT logic to take screenshots using Fivemanage (not Discord).
+- Voice script now starts before Radio.
+- Whitelisted offroad bikes for better traction.
+- Tweaked offroad bike handling.
+- Fixed radio connection issues.
+- Fixed collision issues between Legion and MRPD.
+- More logging on Admin Menu.
+- More logging on Inventory.
+- More logging on Racing.
+
+### Tweaks
+- Optimised Binoculars.
+- Tweaked tyre popping behaviour.
+- Adjusted boosting balance slightly.
+- Properties now work with Phone.
+- MDT now works with Properties.
+- MDT now works with Garages.
+- MDT fully functional.
+
+
+
 ## [1.00.0] - `Vehicle Balancing tweaks, Performance Improvements + Small Features`
 > 6th of September, 2025
 
