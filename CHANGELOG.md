@@ -1,6 +1,55 @@
 # Synergy Roleplay Changelog
 This is the official changelog of the Synergy Roleplay FiveM server where all additions, changes and removals from the server's core features are listed. This changelog dates from 06/09/2025 onwards. This changelog is updated each time an update is released so be sure to check this after each update to see what's changed.
 
+## [1.1.0] - `Balancing economy, Optimisation, Vehicle Tweaks`
+> 17th September 2025
+
+### Vehicles
+- Updated handling and damage for all Gabz vehicles  
+- Updated handling and damage for Onx police pack  
+- Fixed Dorado handling  
+- Removed unused EMS pack  
+
+### Weapons
+- Added new M4 model  
+- Added new MP5 model  
+
+### Jobs & Economy
+- Added new civilian jobs: Electrician, Go Postal, Trash Collector  
+- Configured and balanced all three jobs for economy stability  
+- Added custom Go Postal outfit  
+- Added items for crafting  
+- Adjusted paycheck timings for balance  
+- Added J’s to multi-job system  
+
+### Gameplay & Scripts
+- Configured medical script  
+- Prevented carrying players when downed  
+- Refactored hurt effect  
+- Made bike tyres more resistant to popping  
+- Changed radar speed detection in dispatch from KMH to MPH  
+- Configured TAM police  
+- Fixed casino ped locations  
+- Fixed casino chip name + converted all casino interactions to use chips  
+- Fixed slots bug where players got stuck without money  
+- Increased parachute use time  
+- Added outfit bag item  
+- Implemented optimised first-person carfighting  
+- Tweak: 10 codes for dispatch  
+- Tweaked boosting UI  
+- Added more items to the lucky wheel  
+- Added 24h cooldown for lucky wheel (including a Panto prize 🎉)  
+
+### Optimisation
+- Removed unused libraries  
+- Replaced heavy thread with more efficient loopless logic  
+- Updated 919admin for improved performance  
+- Updated radialmenu to use correct events  
+- Slightly reduced population density  
+
+### Miscellaneous
+- Added new dealership categories for LEO vehicles
+
 
 ## [1.01.0] - `Ranks, Jobs, MDT, Optimisations & More`
 > 7th of September, 2025
