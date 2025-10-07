@@ -1,6 +1,100 @@
 # Synergy Roleplay Changelog
 This is the official changelog of the Synergy Roleplay FiveM server where all additions, changes and removals from the server's core features are listed. This changelog dates from 06/09/2025 onwards. This changelog is updated each time an update is released so be sure to check this after each update to see what's changed.
 
+---
+
+## [1.2.0] - `Core Feature Overhaul, Optimisation & New Content`
+> 8th of October, 2025
+
+__This major update focuses on refining and upgrading many of the server's core systems, introducing new gameplay mechanics, adding performance improvements, and refreshing content across the board. We've streamlined police tools, expanded criminal activities, and continued our commitment to a smooth, engaging experience.__
+
+---
+
+### New Features & Content
+- **Fleeca Heist Overhaul:** Fully configured the **Fleeca Bank** heist with support for **custom minigames**.
+- **Pinkslips:** Fully set up the **pinkslips** system for vehicle ownership.
+- **House Robberies:** Configured and balanced **house robberies**.
+- **Pawnshop:** Set up the **pawnshop** resource.
+- **New Meth Resource:** Introduced a dedicated **Meth resource**.
+- **New Weapon:** Added the **Technical 9** weapon.
+- **New Vehicles:** Added the **Dubsta G**, **Bati 801C**, **BRT600**, and **Shinobi 25**.
+- **New Items:** Added a **radar receipt item** and a **new remote explosive item**.
+- **Blueprints:** Added **loads of blueprints** to the economy.
+- **Show IDs:** Added a **show IDs resource** accessible via the Home key.
+- **Bobcat:** Added a **crate item** specifically for the Bobcat location.
+- **Chat:** Enabled the **`/me`** command for improved roleplay.
+
+---
+
+### UI / HUD
+- **Custom Map:** Added a **custom minimap/map** resource for a fresh look.
+- **HUD Theme:** Created a **default HUD theme** for a more cohesive server aesthetic.
+
+---
+
+### Law Enforcement (LEO)
+- **Police Radial Menu:** Added a **working radialmenu for police** for streamlined interactions.
+- **Vehicle Fleet:** Updated **all police vehicles to polemergency**.
+- **Police Script:** Updated the **police script** resource.
+- **Stash Coords:** Updated **stash coords for PD**.
+- **Fixes:** Fixed the **PD dealership** and fixed **MDT hanging when getting player vehicles**.
+- **Blips:** Removed blips for all stations apart from **SSPD/MRPD**.
+- **Removals:** Removed the **new police rebla** from the fleet.
+
+---
+
+### Criminal Activities & Jobs
+- **Fleeca Payouts:** Configured and balanced **payouts** for the Fleeca Bank heist.
+- **Boosting Tweaks:** Tweaked boosting, added **required items**, and updated the resource with **better pagination and optimisation**.
+- **Robberies:** Disabled **strikes in robbery**.
+- **Skills:** Made **skill checks for searching easier**.
+- **Tweak:** Tweaked **bobcat** balance.
+- **Removals:** Removed the **legion store robbery** and the **legion store** MLO.
+
+---
+
+### Inventory & Weapons
+- **Inventory Weight:** Reduced the overall **inventory weight limit to 100kg**.
+- **Weapon Weight:** Reduced the **weight of weapons**.
+- **Stash Size:** Increased **stash size in properties**.
+- **ID Card:** Updated **qbx idcard** resource.
+- **ID Card Settings:** Updated **id card auto close settings**.
+- **Weapon Sling:** Applied **weapon sling adjustments**.
+- **Weapon Models:** Removed **unused weapon models** and **broken weapon models**.
+- **Visual Fix:** Fixed the **beanbag shotgun model green textures**.
+
+---
+
+### Optimisation & Backend
+- **Database:** Now using **node22 on oxmysql** for better database performance.
+- **Audio:** Removed **xsound** and **interact-sound** as we now use **native audio**, streamlining resources.
+- **Server Artifacts:** Updated **server artifacts** for performance and stability.
+- **Fivecache:** Set up **fivecache properly** for better data management.
+- **Voice:** Updated the **pma voice** resource.
+- **Locations:** Moved all **location files externally** for easier management.
+- **Menu Map:** Compressed images in the menu map (reduced 8MB file size).
+- **API Keys:** Added **fivemanage API keys** for the in-game phone.
+
+---
+
+### Bug Fixes & Adjustments
+- **Script Fix:** Fixed a **script crash when playerdata is nil**.
+- **Finance Fix:** Fixed **finance value not updating till second payment**.
+- **Gameplay Fix:** Prevented carrying a player while dead.
+- **Bat Damage:** Reduced **damage from bat** attacks.
+- **Tyres:** Increased **tyre jump pop threshold** to make jumping safer.
+- **Racing:** Updated **racing resource** and applied **racing tweaks**.
+- **Boss Menu:** Updated the **bossmenu / multijob resource**.
+- **Admin Menu:** Updated the **admin menu**.
+- **Chat:** Fixed an issue with **chat**.
+- **Commands:** Updated `commands.lua`.
+- **Vehicle Spawns:** Enabled **server setter for vehicle spawns**.
+- **Scoring:** Removed the **scoreboard**.
+- **Blips:** Disabled **train blips**.
+- **Old Content Removal:** Removed the **legion mlo** and **vangies clothing store**.
+
+---
+
 ## [1.1.0] - `Balancing economy, Optimisation, Vehicle Tweaks`
 > 17th September 2025
 
@@ -50,6 +144,7 @@ This is the official changelog of the Synergy Roleplay FiveM server where all ad
 ### Miscellaneous
 - Added new dealership categories for LEO vehicles
 
+---
 
 ## [1.01.0] - `Ranks, Jobs, MDT, Optimisations & More`
 > 7th of September, 2025
@@ -107,7 +202,7 @@ __This update continues our commitment to balance, performance and immersive rol
 - MDT now works with Garages.
 - MDT fully functional.
 
-
+---
 
 ## [1.00.0] - `Vehicle Balancing tweaks, Performance Improvements + Small Features`
 > 6th of September, 2025
