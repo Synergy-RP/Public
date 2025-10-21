@@ -2,6 +2,116 @@
 This is the official changelog of the Synergy Roleplay FiveM server where all additions, changes and removals from the server's core features are listed. This changelog dates from 06/09/2025 onwards. This changelog is updated each time an update is released so be sure to check this after each update to see what's changed.
 
 ---
+## [1.3.0] - `System Improvements, Security Enhancements & Quality of Life Updates`
+> [21st October 2025]
+
+__This update delivers significant improvements to server performance, security, and quality of life features. We've enhanced emergency services, refined the economy, fixed numerous bugs, and added new content while continuing our focus on optimization and stability.__
+
+---
+
+### New Features & Content
+- **Prison Jobs:** Added **prison jobs** for enhanced roleplay opportunities.
+- **Crafting System:** Added a full **crafting system** to the economy.
+- **Selling System:** Added **sd-selling** for expanded criminal activities.
+- **Physical Keys:** Implemented **physical key items** for vehicles.
+- **New Garages:** Added **2 new garage locations**.
+- **Bite MLO:** Added the **Bite MLO** for additional roleplay venues.
+- **Food Items:** Added **new food items** and added them to stores.
+- **EMS Vehicles:** Added **EMS Speedo** with configured handling.
+- **Dispatch Improvements:** Added **dispatch pings for downed people**.
+- **New Commands:** Added **clearstuckprops command** for troubleshooting.
+
+---
+
+### Emergency Services (EMS/Medical)
+- **EMS Setup:** Fully set up **EMS** with proper configuration.
+- **EMS Shopping:** Set **EMS location for shopping**.
+- **Hospital Vectors:** Updated **hospital vectors** for better functionality.
+- **Check-in Height:** Dropped **hospital height for check-in** accessibility.
+
+---
+
+### Law Enforcement (LEO)
+- **PD Dealership:** Updated **PD Vehicle dealership**.
+- **Boss Authorization:** Added **boss auth to grades 11/12/13 for LSPD**.
+- **K9 Access:** Gave **Police Chief K9 access**.
+- **Police Resource:** Updated the **police resource**.
+- **Panic Button:** Fixed the **panic button** functionality.
+- **MDT Export:** Fixed **MDT Export error**.
+
+---
+
+### Jobs & Economy
+- **Bus Job:** Updated **busjob** with tweaked pricing and fixed spelling errors.
+- **Fishing:** Increased **payout for fishing** and optimized the system.
+- **Fishing Rods:** Tweaked **fishing rod prices** for balance.
+- **Food Pricing:** Tweaked **food pricing** for economy balance.
+- **Store Robberies:** Fixed **store robbery payout issues**.
+- **Boosting:** Tweaked **boosting economy** for balance.
+- **Chopshop:** Updated **locations for Chopshop**.
+- **Pawnshop:** Added **Rubber/Plastic to pawnshop** inventory.
+- **DOJ Setup:** Set up **DOJ** (Department of Justice).
+
+---
+
+### Optimisation & Performance
+- **Code Optimization:** Replaced all **GetHashKey with joaat** for better performance.
+- **Fishing Optimization:** Optimized **fishing** system.
+- **Dealership Optimization:** Optimized **dealerships** for better performance.
+- **Image Compression:** Optimized images **(30MB → 4MB)**.
+- **Unused Assets:** Removed **unused images** and **useless convars**.
+- **Load Order:** Tweaked **load order of keys** for stability.
+- **Server Convars:** Changed **`set` convars to `sets`** (server-side only).
+- **Location Protection:** Use **server-side convars for location** (dump protection).
+
+---
+
+### Vehicle & Movement
+- **Carry System:** Updated **carry** functionality.
+- **Controller Fix:** Fixed **braking putting you in first person when on controller**.
+- **Stancing:** Disabled **stancing** for vehicles.
+- **Cuffed Restrictions:** 
+  - Disabled **being able to leave vehicle when cuffed/ziptied**.
+  - Prevented **opening phone when cuffed/ziptied**.
+- **Escorting:** Fixed **escorting** issues.
+- **Spikestrip:** Tweaked **spikestrip weight**.
+
+---
+
+### Properties & Locations
+- **Properties Resource:** Updated **properties resource**.
+- **Vespucci Mechanic:** Fixed **Vespucci Mechanic MLO**.
+- **Hawick Garage:** Fixed **Hawick Garage in wrong location**.
+- **Paleto PD:** Fixed **Paleto PD MLO issues**.
+- **Impound:** Fixed **collision issue with impound**.
+- **Noodle Exchange:** Fixed **vector4 for Noodle Exchange**.
+- **J's Mech Zone:** Disabled **zone limit for J's Mech Shop**.
+
+---
+
+### UI & Interface
+- **Loadscreen:** Added **new loadscreen** with changed loading music.
+- **Phone:** Updated **phone** with missing files added.
+- **Reloadskin:** Enabled **reloadskin for everyone** and fixed functionality.
+- **Admin Menu:** Disabled **admin menu for everyone** (security measure).
+- **Garages:** Disabled **server setter on garages**.
+
+---
+
+### Security & Fixes
+- **Evidence Upload:** Fixed **evidence upload token (Fivemanage)**.
+- **Weapon Licensing:** Fixed **weapons being able to be bought without a weapon license**.
+- **Chat Issues:** Fixed **chat issues**.
+- **Extra Commands:** Updated **extra commands for security**.
+- **Shops Issue:** Fixed **shops not loading**.
+
+---
+
+### Libraries & Dependencies
+- **ox_lib:** Updated **ox_lib** to latest version.
+
+---
+
 
 ## [1.2.0] - `Core Feature Overhaul, Optimisation & New Content`
 > 8th of October, 2025
